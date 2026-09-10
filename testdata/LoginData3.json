@@ -1,0 +1,26 @@
+{
+  "validUsers": [
+    {
+      "username": "standard_user",
+      "password": "secret_sauce",
+      "expectedText": "Products"
+    }
+  ],
+  "invalidUsers": [
+    {
+      "username": "baan_user",
+      "password": "secret_sauce",
+      "expectedError": "Username and password do not match"
+    },
+    {
+      "username": "standard_user",
+      "password": "Baan_sauce",
+      "expectedError": "Username and password do not match"
+    },
+    {
+      "username": "Baan_user",
+      "password": "Baan_sauce",
+      "expectedError": "Username and password do not match"
+    }
+  ]
+}

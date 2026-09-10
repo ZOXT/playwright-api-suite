@@ -1,0 +1,18 @@
+{
+  "pages": {
+    "inventoryUrl": "https://www.saucedemo.com/inventory.html",
+    "homeTitle": "Products",
+    "cartUrl": "https://www.saucedemo.com/cart.html"
+  },
+  "formData": {
+    "firstName": "Baan",
+    "lastName": "Jawaid",
+    "postalCode": "12345"
+  },
+  "pdfReport": {
+    "path": "SmokeTest_Order_Receipt.pdf",
+    "format": "A4",
+    "printBackground": true
+  },
+  "expectedSuccessMsg": "Thank you for your order!"
+}
