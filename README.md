@@ -55,4 +55,3 @@ Runs the full suite inside the container and generates the Allure report.
 ## CI
 
 GitHub Actions workflow (`.github/workflows/playwright.yml`) runs the suite on push/PR and uploads both the Playwright and Allure reports as artifacts.
-Jenkins webhook test.
